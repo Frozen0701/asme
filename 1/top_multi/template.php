@@ -18,12 +18,11 @@ foreach($arResult as $arItem):?>
 	<?if ($arItem["IS_PARENT"]):?>
 
 		<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-			<li  <?if(isset($arItem['PARAMS']['dis'])):?> class="dropdown-item disabled" <a href="<?=$arItem["LINK"]?>"  <?endif?>    class="dropdown" > <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
-                "dropdown" data-toggle="dropdown" href="<?=$arItem["LINK"]?>"  class="<?if ($arItem['SELECTED']):?>dropdown<? else:?>nav navbar-nav<?endif?>" <?if(isset($arItem['PARAMS']['dis'])):?> class="dropdown-item disabled" <a href="<?=$arItem["LINK"]?>"  <?endif?>
-        ><span><?=$arItem["TEXT"]?></span><i class="fa fa-angle-down"></i></a>
+			<li class="dropdown" > <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                "dropdown" data-toggle="dropdown" href="<?=$arItem["LINK"]?>" <?if(isset($arItem['PARAMS']['dis'])):?> class="dropdown-item disabled" <?endif?> class="<?if ($arItem['SELECTED']):?>dropdown-item disabled<? else:?>nav navbar-nav<?endif?>"<?if(isset($arItem['PARAMS']['dis'])):?> class="dropdown-item disabled" <?endif?> ><span><?=$arItem["TEXT"]?></span><i class="fa fa-angle-down"></i></a>
 				<ul class="dropdown-menu">
 		<?else:?>
-			<li   <?if(isset($arItem['PARAMS']['dis'])):?> class="dropdown-item disabled" <a href="<?=$arItem["LINK"]?>"  <?endif?>   class="dropdown"> <a href="<?=$arItem["LINK"]?>"  <?if(isset($arItem['PARAMS']['dis'])):?> class="dropdown-item disabled" <a href="<?=$arItem["LINK"]?>"  <?endif?>   <a href="<?=$arItem["LINK"]?>"> <?=$arItem["TEXT"]?></a>
+			<li  class="dropdown"> <a href="<?=$arItem["LINK"]?>"  <?if(isset($arItem['PARAMS']['dis'])):?> class="dropdown-item disabled" <?endif?>  <a href="<?=$arItem["LINK"]?>"> <?=$arItem["TEXT"]?></a>
 				<ul class="dropdown-menu">
 		<?endif?>
 
@@ -32,12 +31,11 @@ foreach($arResult as $arItem):?>
 		<?if ($arItem["PERMISSION"] > "D"):?>
 
 			<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-                <?if(isset($arItem['PARAMS']['dis'])):?> class="dropdown-item disabled" <a href="<?=$arItem["LINK"]?>"  <?endif?>
-                <li     class="dropdown"><a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+				<li class="dropdown"><a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
                     "dropdown" data-toggle="dropdown" class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
                     "dropdown" data-toggle="dropdown" href="<?=$arItem["LINK"]?>"<?if(isset($arItem['PARAMS']['dis'])):?> class="dropdown-item disabled" <?endif?> ><span><?=$arItem["TEXT"]?></span></a></li>
 			<?else:?>
-				<li>  <a   href="<?=$arItem["LINK"]?>"  ><?=$arItem["TEXT"]?></a></li>
+				<li><a  href="<?=$arItem["LINK"]?>" <?if(isset($arItem['PARAMS']['dis'])):?> class="dropdown-item disabled" <?endif?> ><?=$arItem["TEXT"]?></a></li>
 			<?endif?>
 
 

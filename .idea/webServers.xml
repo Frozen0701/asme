@@ -5,8 +5,8 @@
       <webServer id="450845e9-d077-4aaa-be49-cadfa6a81fa7" name="192.168.0.22" url="http://192.168.0.23">
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
-      <webServer id="7e810b4c-e786-4e6a-befc-784219bad105" name="server1" url="http://192.168.0.15">
-        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="192.168.0.15" port="22" sshConfigId="19a2e9c7-5f96-47ec-bb7e-7609a35ba78c" sshConfig="bitrix@192.168.0.15:22:22 password">
+      <webServer id="7e810b4c-e786-4e6a-befc-784219bad105" name="server1" url="http://192.168.0.20">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="192.168.0.20" port="22" sshConfigId="19a2e9c7-5f96-47ec-bb7e-7609a35ba78c" sshConfig="bitrix@192.168.0.20:22:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

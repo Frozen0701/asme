@@ -25,285 +25,22 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3b88b36-4460-480b-b7c2-2df7eb68568a" name="Default Changelist" comment="">
+    <list default="true" id="a3b88b36-4460-480b-b7c2-2df7eb68568a" name="Default Changelist" comment="[1]  Интегрирование меню и поиска.Перенос шаблона  в local">
       <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/.idea/acme-free-inner.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/.idea/acme-free-inner.1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/.idea/sshConfigs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/.styles.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/.styles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/bxslider/images/bx_loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/bxslider/images/bx_loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/bxslider/images/left-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/bxslider/images/left-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/bxslider/images/left.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/bxslider/images/left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/bxslider/images/right-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/bxslider/images/right-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/bxslider/images/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/bxslider/images/right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/bxslider/jquery.bxslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/bxslider/jquery.bxslider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/bxslider/jquery.bxslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/bxslider/jquery.bxslider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/bxslider/jquery.bxslider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/bxslider/jquery.bxslider.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/core.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/list.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/spinning.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/spinning.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/stacked.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_path.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_spinning.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_spinning.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/owlcarousel/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/owlcarousel/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/owlcarousel/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/owlcarousel/owl.carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/assets/owlcarousel/owl.theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/assets/owlcarousel/owl.theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/.description.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/.description.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/images/arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/images/arrow.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/images/header_menu_bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/images/header_menu_bg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/images/lock.gif" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/images/lock.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/lang/en/.description.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/lang/en/.description.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/lang/ru/.description.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/lang/ru/.description.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/script.map.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/script.map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/script.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/components/bitrix/menu/top_multi/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/bootstrap-reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/bootstrap-reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/bootstrap-social.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/bootstrap-social.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/component.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/flexslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/flexslider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/mixitup.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/mixitup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/parallax-slider/parallax-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/parallax-slider/parallax-slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/css/sequencejs-theme.apple-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/css/sequencejs-theme.apple-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/bg-controls.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/bg-controls.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/bt-next.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/bt-next.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/bt-pause.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/bt-pause.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/bt-play.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/bt-play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/bt-prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/bt-prev.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/ipad-shadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/ipad-shadow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/ipad.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/iphone-shadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/iphone-shadow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/iphone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/pause-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/pause-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/sequence-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/sequence-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/images/status-bar.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/images/status-bar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/scripts/jquery-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/scripts/jquery-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/scripts/jquery.ba-hashchange.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/scripts/jquery.ba-hashchange.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/scripts/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/scripts/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/scripts/jquery.sequence-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/scripts/jquery.sequence-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/scripts/jquery.sequence.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/scripts/jquery.sequence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/scss/partials/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/scss/partials/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/scss/partials/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/scss/partials/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/scss/sequencejs-theme.apple-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/scss/sequencejs-theme.apple-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/apple-style/sequencejs-options.apple-style.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/apple-style/sequencejs-options.apple-style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/license-free-theme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/license-free-theme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/readme-free.txt" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/readme-free.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/release-history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/release-history.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/apple-style/sequence-apple-style.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/apple-style/sequence-apple-style.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/sequencejs-theme.apple-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/sequencejs-theme.apple-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/sequencejs-theme.modern-slide-in.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/sequencejs-theme.modern-slide-in.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/seq-slider/sequencejs-theme.sliding-horizontal-parallax.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/seq-slider/sequencejs-theme.sliding-horizontal-parallax.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/style-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/style-responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/superfish-vertical.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/superfish-vertical.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/superfish.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/superfish.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/description.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/description.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/event.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/event.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/examples/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/examples/button.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/examples/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/examples/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/examples/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/examples/table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/examples/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/examples/typography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/bg_direction_nav.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/bg_direction_nav.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/blog/blog-thumb-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/blog/blog-thumb-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/blog/blog-thumb-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/blog/blog-thumb-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/blog/blog-thumb-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/blog/blog-thumb-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/blog/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/blog/img3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/blog/img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/blog/img4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/blog/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/blog/img5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/blog/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/blog/img6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/blog/img7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/blog/img7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/blog/img8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/blog/img8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/clients/graylogo6.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/clients/graylogo6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/clients/newlogo6.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/clients/newlogo6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/ipadwhite.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/ipadwhite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/link-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/link-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/mob1.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/mob1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/nbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/nbg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/21.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/31.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/ImageAttribution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/ImageAttribution.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/main-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/main-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/parallax-slider/images/waves.gif" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/parallax-slider/images/waves.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/person_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/person_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/person_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/person_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/person_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/person_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/app/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/app/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/app/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/app/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/app/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/app/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/app/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/app/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/app/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/app/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/card/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/card/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/card/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/card/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/card/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/card/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/card/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/card/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/icon/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/icon/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/icon/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/icon/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/icon/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/icon/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/icon/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/icon/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/icon/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/icon/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/logo/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/logo/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/logo/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/logo/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/logo/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/logo/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/logo/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/logo/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/logo/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/logo/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/logo/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/logo/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/logo/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/logo/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/web/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/web/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/web/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/web/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/web/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/web/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/portfolios/web/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/portfolios/web/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/product1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/product1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/product2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/product2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/search-icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/search-icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/search-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/search-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/abstract-16729_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/abstract-16729_1920.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/aeroplane.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/aeroplane.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/balloon.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/balloon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/bg-clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/bg-clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/bg-controls.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/bg-controls.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/bg-sky.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/bg-sky.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/bt-next-a.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/bt-next-a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/bt-next-gr.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/bt-next-gr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/bt-next.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/bt-next.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/bt-pause.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/bt-pause.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/bt-play.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/bt-play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/bt-prev-a.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/bt-prev-a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/bt-prev-gr.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/bt-prev-gr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/bt-prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/bt-prev.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/ipad-shadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/ipad-shadow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/ipad.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/ipad2.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/ipad2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/ipad_demo.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/ipad_demo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/iphone-shadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/iphone-shadow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/iphone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/iphone_demo.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/iphone_demo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/kite.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/kite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/pause-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/pause-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/sequence-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/sequence-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/seq-slider/status-bar.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/seq-slider/status-bar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/service1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/service1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/service2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/service2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/service3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/service3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/service4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/service4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/service5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/service5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/tab1.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/tab1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/team/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/team/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/team/member1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/team/member1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/team/member2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/team/member2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/team/member3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/team/member3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/team/member4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/team/member4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/team/placeholder.gif" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/team/placeholder.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/tg-black-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/tg-black-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/triangle.png" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/triangle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/works/img10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/works/img10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/works/img11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/works/img11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/works/img12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/works/img12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/works/img13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/works/img13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/works/img8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/works/img8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/img/works/img9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/img/works/img9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/common-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/common-scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/hover-dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/hover-dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/jquery-1.8.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/jquery-ui-1.9.2.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/jquery.easing.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/jquery.flexslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/jquery.flexslider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/jquery.magnific-popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/jquery.magnific-popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/jquery.parallax-1.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/jquery.parallax-1.1.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/link-hover.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/link-hover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/mixitup.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/mixitup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/parallax-slider/jquery.cslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/parallax-slider/jquery.cslider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/parallax-slider/modernizr.custom.28468.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/parallax-slider/modernizr.custom.28468.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/seq-slider/jquery.ba-hashchange.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/seq-slider/jquery.ba-hashchange.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/seq-slider/jquery.sequence-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/seq-slider/jquery.sequence-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/seq-slider/jquery.sequence.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/seq-slider/jquery.sequence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/seq-slider/sequencejs-options.apple-style.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/seq-slider/sequencejs-options.apple-style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/seq-slider/sequencejs-options.modern-slide-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/seq-slider/sequencejs-options.modern-slide-in.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/seq-slider/sequencejs-options.sliding-horizontal-parallax.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/seq-slider/sequencejs-options.sliding-horizontal-parallax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/superfish.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/superfish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/js/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/js/wow.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/resume.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/resume_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/resume_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/template_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/template_styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/test1.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/test1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/1/vacancies.html" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/vacancies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.php" beforeDir="false" afterPath="$PROJECT_DIR$/test2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.top.menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/script.map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/script.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/1/components/bitrix/menu/top_multi/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabotodatelyam/.top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/rabotodatelyam/.left.menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabotodatelyam/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/rabotodatelyam/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabotodatelyam/poleznaya-informatsiya/.section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabotodatelyam/poleznaya-informatsiya/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabotodatelyam/soiskatelyam/.section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabotodatelyam/soiskatelyam/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/soiskatelyam/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,11 +79,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Kate\WEB\Курс\Задание 1\asme\rabotodatelyam" />
       <recent name="D:\Kate\WEB\Курс\Задание 1\asme" />
       <recent name="D:\Kate\WEB\Курс\Задание 1\asme\local\templates\1\test" />
       <recent name="D:\Kate\WEB\Курс\Задание 1\asme\local\templates" />
       <recent name="D:\Kate\WEB\Курс\Задание 1\asme\bitrix\templates\1" />
-      <recent name="D:\Kate\WEB\Курс\Задание 1\acme-free-inner.1\1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Kate\WEB\Курс\Задание 1\asme\test" />
@@ -393,8 +130,17 @@
       <workItem from="1606322381226" duration="14610000" />
       <workItem from="1606341632166" duration="4682000" />
       <workItem from="1606346517874" duration="8401000" />
-      <workItem from="1606394225325" duration="11949000" />
+      <workItem from="1606394225325" duration="18178000" />
+      <workItem from="1606420407703" duration="6470000" />
     </task>
+    <task id="LOCAL-00001" summary="[1]  Интегрирование меню и поиска.Перенос шаблона  в local">
+      <created>1606406884151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606406884151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,11 +170,15 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[1]  Интегрирование меню и поиска.Перенос шаблона  в local" />
+    <option name="LAST_COMMIT_MESSAGE" value="[1]  Интегрирование меню и поиска.Перенос шаблона  в local" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="258" y="57" width="814" height="689" key="#Deployment" timestamp="1606394273355">
+    <state x="258" y="57" width="814" height="689" key="#Deployment" timestamp="1606420440926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="258" y="57" width="814" height="689" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1606394273355" />
+    <state x="258" y="57" width="814" height="689" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1606420440926" />
     <state x="511" y="62" key="#Options" timestamp="1606322699473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -437,10 +187,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="873" y="53" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1600822260592" />
-    <state x="377" y="115" key="#SSH_Configurations" timestamp="1606394254495">
+    <state x="377" y="115" key="#SSH_Configurations" timestamp="1606420436255">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="377" y="115" key="#SSH_Configurations/0.0.1536.824@0.0.1536.824" timestamp="1606394254495" />
+    <state x="377" y="115" key="#SSH_Configurations/0.0.1536.824@0.0.1536.824" timestamp="1606420436255" />
     <state x="570" y="202" key="#Web_Browsers" timestamp="1600869242978">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -457,10 +207,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1606403306612" />
-    <state x="883" y="161" key="FileChooserDialogImpl" timestamp="1606346281472">
+    <state x="883" y="161" key="FileChooserDialogImpl" timestamp="1606407212116">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="883" y="161" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606346281472" />
+    <state x="883" y="161" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606407212116" />
     <state x="445" y="310" width="463" height="203" key="Github.ShareDialog" timestamp="1606346559114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -469,10 +219,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="533" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606346602742" />
-    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1606396597591">
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1606407882652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1606396597591" />
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1606407882652" />
+    <state x="542" y="110" key="VCS.ChangeListViewerDialog" timestamp="1606415182070">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="110" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1606415182070" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606406888616">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606406888616" />
     <state x="624" y="311" key="WebDeployment.AddServerDialog.v.1" timestamp="1600868991260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
