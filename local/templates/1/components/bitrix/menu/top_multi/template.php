@@ -51,8 +51,17 @@ foreach($arResult as $arItem):?>
 	<?=str_repeat("</ul></li>", ($previousLevel-1) );?>
 <?endif?>
 
-
-    </ul>
+                    <li>
+                        <?$APPLICATION->IncludeComponent(
+                            "bitrix:search.form",
+                            "search",
+                            Array(
+                                "COMPONENT_TEMPLATE" => "search",
+                                "PAGE" => "#SITE_DIR#search/index.php",
+                                "USE_SUGGEST" => "Y"
+                            )
+                        );?>
+                    </li></ul>
     </div>
 
 <?endif?>

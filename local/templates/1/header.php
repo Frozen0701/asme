@@ -83,9 +83,11 @@ IncludeTemplateLangFile(__FILE__);
                   "USE_EXT" => "N"
               )
           );?>
+
+
     </header>
     <!--header end-->
-
+<? /*
     <!-- Sequence Modern Slider -->
     <div id="da-slider" class="da-slider">
 
@@ -182,7 +184,7 @@ IncludeTemplateLangFile(__FILE__);
       </nav>
     </div>
 
-
+?>
     <div class="container">
       <div class="row mar-b-50">
         <div class="col-md-12">

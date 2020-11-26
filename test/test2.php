@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
 $APPLICATION->SetTitle("test2");
 
-?>Text here22....7
+?>Text here22....
 <?$APPLICATION->IncludeComponent("bitrix:menu", "top_multi", Array(
 	"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
 		"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
